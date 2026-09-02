@@ -1,0 +1,20 @@
+27. Choosing the Right Structure
+
+A useful mental model:
+
+Structure	Main purpose
+List	Ordered collection
+Tuple	Fixed collection
+Set	Unique values
+Dictionary	Key → value
+Stack	LIFO
+Queue	FIFO
+
+For example:
+
+Dataset records       → List
+Image dimensions      → Tuple
+Unique labels         → Set
+Model configuration   → Dictionary
+Undo operations       → Stack
+Task processing       → Queue
